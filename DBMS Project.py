@@ -3,7 +3,7 @@ import tkinter.ttk as ttk
 import tkinter.messagebox
 import sys
 import cx_Oracle
-con = cx_Oracle.connect('system/rutu2633432@localhost')
+con = cx_Oracle.connect('system/WriteYourOwnPassword@localhost')
 
 def Admin_Table():
     Admin_Table_Window=tk.Tk()
